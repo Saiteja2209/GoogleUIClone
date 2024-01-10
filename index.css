@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+}
+
+#div1{
+    float: right;
+    padding: 10px 10px;
+    display: flex;
+    position: relative;
+}
+#div1 a{
+    color: #535355;
+    text-decoration: none;
+    padding: 8px;
+    font-size: medium;
+
+}
+#div1 a:hover{
+    text-decoration: underline;
+}
+#app{
+    padding: 8px;
+    margin-top: -3px;
+}
+#app:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+#account:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+#account{
+    padding: 8px;
+    font-size: 30px;
+    margin-top: -5px;
+}
+#div2 {
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+   
+}
+
+#input-search {
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    width: 600px;
+    height: 45px;
+    margin-top: 20px;
+    position: relative; 
+}
+#input-search:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+input{
+    
+    width: 480px;
+    height: 30px;
+    border-color: transparent;
+    outline: none;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+
+}
+
+span{
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+#mag{
+    float: left;
+    padding-left: 15px;
+    font-size: 21px;
+    color:rgb(156, 156, 156);
+    padding-top: 3px;
+}
+#mic{
+    float: right;
+    margin-right: 10px;
+    color: rgb(156, 156, 156);
+    padding-top: 2px;
+}
+#search-options{
+    margin-top: 30px;
+}
+button{
+    height: 36px;
+    min-width: 54px;
+    background-color: #f8f9fa;
+    border: none;
+    color:#202124;
+    padding :10px 15px 10px 15px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 10px;
+}
+button:hover{
+    cursor: pointer;
+    border: 1px solid #dadce0;
+}
+#footer{
+   position: fixed;
+   left: 0;
+   bottom: 0px;
+   height: 100px;
+   width: 100%;
+   background-color: #f2f2f2;
+   justify-content: space-evenly;
+}
+#india{
+    padding: 15px 25px 15px 20px;
+    border-bottom: 1px solid rgb(228, 223, 223);
+    color: #535355;
+    
+}
+#lower-footer{
+    display: flex;
+    justify-content: space-between;
+}
+#left-footer{
+    display: flex;
+    padding-top: 14px;
+    padding-left: 28px;
+}
+#left-footer p{
+    padding-left: 18px;
+    color: #535355;
+}
+#right-footer{
+    display: flex;
+    padding-right: 18px;
+    padding-top: 14px;
+}
+#right-footer p{
+    padding-right: 18px;
+    color: #535355;
+}
+p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
